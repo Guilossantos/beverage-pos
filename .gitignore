@@ -1,0 +1,45 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Local Spring configuration
+**/application-local.properties
+**/application-local.yml
+**/application-local.yaml
+
+# Java and Maven
+**/target/
+*.class
+hs_err_pid*
+replay_pid*
+
+# React, Vite and Node
+**/node_modules/
+**/dist/
+**/.vite/
+**/coverage/
+*.tsbuildinfo
+
+# IDEs and editors
+.vscode/
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+.factorypath
+
+# Operating system
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Local databases and volumes
+*.db
+postgres-data/
